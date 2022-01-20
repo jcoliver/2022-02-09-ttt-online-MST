@@ -1,24 +1,20 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+humandate: "Feb 9-10, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2022-02-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2022-02-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Jon Wheeler", "Jeff Oliver"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["jwheel01@unm.edu", "jcoliver@arizona.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+etherpad: https://pad.carpentries.org/2022-02-09-ttt-online-MST            # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:            # for online events, delete the second section below. for in-person events, customize the second section and delete the first section.
   - venue: "Online" 
     address: ""
-
-  - venue: "Euphoria University" 
-    address: "Room A, 123 Forth Street, Blimingen, Euphoria"
-    latlng: "41.7901128,-87.6007318"
 
 ---
 
@@ -249,55 +245,46 @@ for more information.
 
 <hr/>
 
-<!--
-NOTE: The 2-day workshop schedule below is not up to date. However this space can be customized to reflect the unique schedule 
-of your workshop. If you would like it to display, adjust the times and titles, then delete the characters 
-above and below that serve to comment it out.
--->
-  
-<!--
 <div class="row">
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td> <td>Welcome </td> </tr>
-      <tr> <td>09:25</td> <td>Building Skill with Practice </td> </tr>
-      <tr> <td>10:25</td> <td>Expertise and Instruction </td> </tr>
-      <tr> <td>11:10</td> <td>Morning Break </td> </tr>
-      <tr> <td>11:25</td> <td>Memory and Cognitive Load </td> </tr>
-      <tr> <td>12:10</td> <td>Building Skill with Feedback </td> </tr>
-      <tr> <td>12:30</td> <td>Lunch </td> </tr>
-      <tr> <td>13:30</td> <td>Motivation and Demotivation </td> </tr>
-      <tr> <td>14:45</td> <td>Mindset </td> </tr>
+      <tr> <td>09:30</td> <td>Building Skill with Practice </td> </tr>
+      <tr> <td>10:30</td> <td>Morning Break </td> </tr>
+      <tr> <td>10:45</td> <td>Expertise and Instruction </td> </tr>
+      <tr> <td>11:30</td> <td>Memory and Cognitive Load </td> </tr>
+      <tr> <td>12:15</td> <td>Building Skill with Feedback </td> </tr>
+      <tr> <td>12:35</td> <td>Lunch </td> </tr>
+      <tr> <td>13:35</td> <td>Motivation and Demotivation </td> </tr>
+      <tr> <td>14:35</td> <td>Equity, Inclusion, and Accessibility </td> </tr>
       <tr> <td>15:15</td> <td>Afternoon Break </td> </tr>
       <tr> <td>15:30</td> <td>Teaching Is a Skill </td> </tr>
-      <tr> <td>16:40</td> <td>Wrap-up and Homework for Tomorrow </td> </tr>
-      <tr> <td>17:00</td> <td>Finish </td> </tr>
+      <tr> <td>16:30</td> <td>Wrap-up and Homework </td> </tr>
+      <tr> <td>16:50</td> <td>Finish </td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-      <tr> <td>09:10</td> <td>Live Coding Is a Skill </td> </tr>
-      <tr> <td>10:20</td> <td>Preparing to Teach </td> </tr>
-      <tr> <td>11:10</td> <td>Morning Break </td> </tr>
-      <tr> <td>11:25</td> <td>More Practice Live Coding </td> </tr>
-      <tr> <td>12:10</td> <td>Managing a Diverse Classroom </td> </tr>
-      <tr> <td>12:40</td> <td>Lunch </td> </tr>
-      <tr> <td>13:40</td> <td>Checkout Process </td> </tr>
-      <tr> <td>13:55</td> <td>The Carpentries: How We Operate </td> </tr>
-      <tr> <td>15:10</td> <td>Afternoon Coffee </td> </tr>
-      <tr> <td>15:25</td> <td>Workshop Introductions </td> </tr>
-      <tr> <td>16:05</td> <td>Putting it Together </td> </tr>
-      <tr> <td>16:25</td> <td>Wraping Up </td> </tr>
-      <tr> <td>16:40</td> <td>Post-Training Survey </td> </tr>
-      <tr> <td>16:55</td> <td>Finish </td> </tr>
+      <tr> <td>09:10</td> <td>Getting Started on Instructor Certification </td> </tr>
+      <tr> <td>09:40</td> <td>The Carpentries: How We Operate </td> </tr>
+      <tr> <td>10:25</td> <td>Morning Break </td> </tr>
+      <tr> <td>10:40</td> <td>Live Coding Is a Skill </td> </tr>
+      <tr> <td>11:45</td> <td>Preparing to Teach </td> </tr>
+      <tr> <td>12:30</td> <td>Lunch </td> </tr>
+      <tr> <td>13:30</td> <td>More Practice Live Coding </td> </tr>
+      <tr> <td>14:15</td> <td>Working with Your Team</td> </tr>
+      <tr> <td>15:25</td> <td>Afternoon Break </td> </tr>
+      <tr> <td>15:40</td> <td>Launches and Landings </td> </tr>
+      <tr> <td>16:20</td> <td>Putting it Together </td> </tr>
+      <tr> <td>16:40</td> <td>Wraping Up </td> </tr>
+      <tr> <td>16:50</td> <td>Post-Training Survey </td> </tr>
+      <tr> <td>17:05</td> <td>Finish </td> </tr>
     </table>
   </div>
 </div>
-
--->
 
 <!--
   ETHERPAD
